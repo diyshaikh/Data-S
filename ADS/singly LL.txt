@@ -73,7 +73,7 @@ void beginsert()
     }  
     else  
     {  
-        printf("\nEnter your choice\n");    
+        printf("\nEnter data to be inserted \n");    
         scanf("%d",&item);    
         ptr->data = item;  
         ptr->next = head;  
